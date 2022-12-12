@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/CustomerNotFoundAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/LoadDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/RestServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/java/com/finalpro/marketplace/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/test/generated-requests.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RestService/src/test/java/com/finalpro/marketplace/RestServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/UI/HELP.md" afterDir="false" />
-    </list>
+    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +12,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,6 +58,13 @@
       <recent name="D:\Nix\marketplace\RestService" />
       <recent name="D:\Nix\marketplace" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="HTTP Request.generated-requests | #16">
     <configuration name="generated-requests | #16" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="16" requestIdentifier="#16" runType="Run single request">
@@ -129,11 +112,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670859062192</updated>
-      <workItem from="1670859063900" duration="884000" />
+      <workItem from="1670859063900" duration="1421000" />
     </task>
+    <task id="LOCAL-00001" summary="-join two module UI+REST together">
+      <created>1670860153277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670860153277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-join two module UI+REST together" />
+    <option name="LAST_COMMIT_MESSAGE" value="-join two module UI+REST together" />
   </component>
 </project>
