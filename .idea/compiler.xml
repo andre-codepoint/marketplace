@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RestService" />
-        <module name="UI (1)" />
+        <module name="UI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="UI" target="17" />
+      <module name="UI (1)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -19,7 +19,6 @@
       <module name="RestService" options="-parameters" />
       <module name="UI" options="-parameters" />
       <module name="UI (1)" options="-parameters" />
-      <module name="UI (2)" options="-parameters" />
     </option>
   </component>
 </project>
