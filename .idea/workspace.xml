@@ -4,31 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="-join two module UI+REST together">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/CustomerNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/CustomerNotFoundAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/ItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/ItemRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/LoadDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/RestServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/test/generated-requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/test/generated-requests.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/RestService/src/test/java/com/finalpro/marketplace/RestServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/test/java/com/finalpro/marketplace/RestServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/UiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/src/test/java/com/frontend/ui/UiApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670859062192</updated>
-      <workItem from="1670859063900" duration="4314000" />
+      <workItem from="1670859063900" duration="4411000" />
     </task>
     <task id="LOCAL-00001" summary="-join two module UI+REST together">
       <created>1670860153277</created>
@@ -215,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670862984068</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-join two module UI+REST together">
+      <created>1670863427312</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670863427312</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
