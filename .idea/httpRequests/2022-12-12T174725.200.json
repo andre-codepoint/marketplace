@@ -1,0 +1,12 @@
+{
+  "id": 2,
+  "title": "Android Smartphone",
+  "description": "All day all weather for everybody Android Phone",
+  "price": 199,
+  "quantity": 4,
+  "customer": {
+    "id": 1,
+    "name": "Little Bob",
+    "role": "USER"
+  }
+}
