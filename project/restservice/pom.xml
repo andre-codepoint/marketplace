@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.finalpro</groupId>
-    <artifactId>RestService</artifactId>
+    <artifactId>restservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>RestService</name>
     <description>RestService</description>

@@ -7,9 +7,28 @@
     <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="-join two module UI+REST together">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/CustomerNotFoundAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/CustomerNotFoundAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/LoadDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/RestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/RestServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/java/com/finalpro/marketplace/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/UserNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/test/generated-requests.http" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/test/generated-requests.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/RestService/src/test/java/com/finalpro/marketplace/RestServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/test/java/com/finalpro/marketplace/RestServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +55,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,6 +65,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -81,13 +103,13 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="RestService" />
+      <module name="restservice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="RestService" />
+      <module name="restservice" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,7 +123,7 @@
       </method>
     </configuration>
     <configuration name="RestServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="RestService" />
+      <module name="restservice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.finalpro.marketplace.RestServiceApplication" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670859062192</updated>
-      <workItem from="1670859063900" duration="3815000" />
+      <workItem from="1670859063900" duration="4314000" />
     </task>
     <task id="LOCAL-00001" summary="-join two module UI+REST together">
       <created>1670860153277</created>
@@ -186,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670862844017</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-join two module UI+REST together">
+      <created>1670862984068</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670862984068</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +233,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="-join two module UI+REST together" />
     <option name="LAST_COMMIT_MESSAGE" value="-join two module UI+REST together" />
   </component>
