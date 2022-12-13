@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;">
+    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="- fix previous error and  get correct response from RestService for Customer with Id&#10;- set frontend server port :8081 (another that in backend) for avoid collisions">
+      <change afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/controller/CustomerUiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/src/main/resources/templates/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/src/main/resources/templates/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/ui/src/main/resources/templates/home.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/restservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/market/RestURIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/market/RestURIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/ConsumingRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/ConsumingRestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/CustomerUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/CustomerUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/UiApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/ui/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,14 +120,21 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumingRestApplication">
-    <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #28">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.frontend.ui.controller.CustomerUiController" />
+      <module name="ui" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #25" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="25" requestIdentifier="#25" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+    <configuration name="generated-requests | #27" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="27" requestIdentifier="#27" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #19" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="19" requestIdentifier="#19" runType="Run single request">
+    <configuration name="generated-requests | #28" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="28" requestIdentifier="#28" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
@@ -185,17 +204,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="HTTP Request.generated-requests | #25" />
+      <item itemvalue="HTTP Request.generated-requests | #27" />
+      <item itemvalue="HTTP Request.generated-requests | #28" />
+      <item itemvalue="Spring Boot.AppApplication" />
+      <item itemvalue="Spring Boot.UiApplication" />
+      <item itemvalue="Spring Boot.UiApplication (1)" />
+      <item itemvalue="Spring Boot.UiApplication (2)" />
+      <item itemvalue="Spring Boot.RestServiceApplication" />
+      <item itemvalue="Spring Boot.ConsumingRestApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #28" />
         <item itemvalue="Spring Boot.ConsumingRestApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #27" />
         <item itemvalue="Spring Boot.RestServiceApplication" />
-        <item itemvalue="HTTP Request.generated-requests | #19" />
-        <item itemvalue="HTTP Request.generated-requests | #15" />
-        <item itemvalue="HTTP Request.generated-requests | #18" />
+        <item itemvalue="HTTP Request.generated-requests | #25" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="" />
@@ -204,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670859062192</updated>
       <workItem from="1670859063900" duration="5363000" />
-      <workItem from="1670921500580" duration="6847000" />
+      <workItem from="1670921500580" duration="15793000" />
     </task>
     <task id="LOCAL-00001" summary="-join two module UI+REST together">
       <created>1670860153277</created>
@@ -283,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670928784532</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- fix previous error and  get correct response from RestService for Customer with Id">
+      <created>1670932637943</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932637943</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- fix previous error and  get correct response from RestService for Customer with Id&#10;- set frontend server port :8081 (another that in backend) for avoid collisions">
+      <created>1670932807709</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670932807709</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +354,19 @@
     <MESSAGE value="- create global URI constant for multimodule usage and replace path in controller with this constants" />
     <MESSAGE value="- create RestCunsuming app and try to get response from RestServic but get wrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;" />
     <MESSAGE value="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;" />
+    <MESSAGE value="- fix previous error and  get correct response from RestService for Customer with Id" />
+    <MESSAGE value="- fix previous error and  get correct response from RestService for Customer with Id&#10;- set frontend server port :8081 (another that in backend) for avoid collisions" />
+    <option name="LAST_COMMIT_MESSAGE" value="- fix previous error and  get correct response from RestService for Customer with Id&#10;- set frontend server port :8081 (another that in backend) for avoid collisions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/controller/CustomerUiController.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

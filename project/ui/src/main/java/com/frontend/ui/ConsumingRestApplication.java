@@ -2,14 +2,8 @@ package com.frontend.ui;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.context.annotation.Bean;
-import org.springframework.web.client.RestTemplate;
-
-import static com.market.RestURIConstants.LOCALHOST;
 
 @SpringBootApplication
 public class ConsumingRestApplication {
@@ -20,16 +14,26 @@ public class ConsumingRestApplication {
         SpringApplication.run(ConsumingRestApplication.class, args);
     }
 
-    @Bean
-    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        return builder.build();
-    }
+//    @Bean
+//    public RestTemplate restTemplate(RestTemplateBuilder builder) {
+//        return builder.build();
+//    }
 
-    @Bean
-    public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
-        return args -> {
-            CustomerUI customerUI = restTemplate.getForObject(LOCALHOST+"/customers/1", CustomerUI.class);
-            log.info(customerUI.toString());
-        };
-    }
+//    @GetMapping(HOME)
+//    public String goHome(final Model model) {
+//        return "home";
+//    }
+
+//    @GetMapping(HOME)
+//    public ModelAndView goHome() {
+//        ModelAndView modelAndView = new ModelAndView("home");
+//        return modelAndView;
+//    }
+//    @Bean
+//    public CommandLineRunner run(RestTemplate restTemplate) throws Exception {
+//        return args -> {
+//            CustomerUI customerUI = restTemplate.getForObject(LOCALHOST+"/customers/1", CustomerUI.class);
+//            log.info(customerUI.toString());
+//        };
+//    }
 }
