@@ -1,3 +1,12 @@
+GET http://localhost:8080/customers
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2022-12-13T110223.200.json
+
+###
+
 GET http://localhost:8080/items/2
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
