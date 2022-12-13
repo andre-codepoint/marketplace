@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="- create global URI constant for multimodule usage and replace path in controller with this constants">
-      <change afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/ConsumingRestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/CustomerUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="1d5d7d37-394e-49fb-bdb5-2f54c20a8dfa" name="Changes" comment="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/LoadDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/restservice/src/main/java/com/finalpro/marketplace/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/market/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/src/main/java/com/market/RestURIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/src/main/java/com/market/RestURIConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/UiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/src/main/java/com/frontend/ui/UiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/ui/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/ui/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,9 +188,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ConsumingRestApplication" />
+        <item itemvalue="Spring Boot.RestServiceApplication" />
         <item itemvalue="HTTP Request.generated-requests | #19" />
         <item itemvalue="HTTP Request.generated-requests | #15" />
-        <item itemvalue="Spring Boot.RestServiceApplication" />
         <item itemvalue="HTTP Request.generated-requests | #18" />
       </list>
     </recent_temporary>
@@ -213,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670859062192</updated>
       <workItem from="1670859063900" duration="5363000" />
-      <workItem from="1670921500580" duration="5166000" />
+      <workItem from="1670921500580" duration="6847000" />
     </task>
     <task id="LOCAL-00001" summary="-join two module UI+REST together">
       <created>1670860153277</created>
@@ -285,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670922741645</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;">
+      <created>1670928784532</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670928784532</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +304,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="-join two module UI+REST together" />
     <MESSAGE value="- create global URI constant for multimodule usage and replace path in controller with this constants" />
-    <option name="LAST_COMMIT_MESSAGE" value="- create global URI constant for multimodule usage and replace path in controller with this constants" />
+    <MESSAGE value="- create RestCunsuming app and try to get response from RestServic but get wrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;" />
+    <MESSAGE value="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="- create RestCunsuming app and try to get response from RestServic but get уrror instead &quot;Web server failed to start. Port 8080 was already in use.&quot;" />
   </component>
 </project>
