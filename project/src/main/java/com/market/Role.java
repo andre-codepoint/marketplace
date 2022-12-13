@@ -1,4 +1,4 @@
-package com.finalpro.marketplace;
+package com.market;
 
 public enum Role {
     USER("USER"), ADMIN("ADMIN");

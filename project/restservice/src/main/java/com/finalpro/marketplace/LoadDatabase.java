@@ -1,5 +1,6 @@
 package com.finalpro.marketplace;
 
+import com.market.Role;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

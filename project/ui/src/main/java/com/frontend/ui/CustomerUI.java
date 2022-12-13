@@ -1,35 +1,16 @@
-package com.finalpro.marketplace;
+package com.frontend.ui;
 
 
-import com.market.Role;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.Objects;
+import com.market.Role;
 
-import javax.persistence.*;
-
-@Entity
-class Customer {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class CustomerUI {
     private Long id;
     private String name;
-
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
     private Role role;
-
-//    @OneToMany(fetch = FetchType.LAZY,
-//            cascade = CascadeType.ALL,
-//            orphanRemoval = true)
-//    private Set<Item> item = new HashSet<>();
-
-    public Customer() {}
-
-    public Customer(String name, Role role) {
-        this.name = name;
-        this.role = role;
-    }
 
     public Long getId() {
         return id;
@@ -41,6 +22,15 @@ class Customer {
 
     public String getName() {
         return name;
+    }
+
+    public CustomerUI() {
+
+    };
+    public CustomerUI(Long id, String name, Role role) {
+        this.id = id;
+        this.name = name;
+        this.role = role;
     }
 
     public void setName(String name) {
@@ -58,8 +48,8 @@ class Customer {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Customer customer)) return false;
-        return getId().equals(customer.getId()) && getName().equals(customer.getName()) && getRole() == customer.getRole();
+        if (!(o instanceof CustomerUI that)) return false;
+        return getId().equals(that.getId()) && getName().equals(that.getName()) && getRole() == that.getRole();
     }
 
     @Override
@@ -69,7 +59,7 @@ class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "CustomerUI{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", role=" + role +
