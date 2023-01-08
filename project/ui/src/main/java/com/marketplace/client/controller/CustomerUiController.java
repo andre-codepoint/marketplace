@@ -1,4 +1,4 @@
-package com.frontend.ui.controller;
+package com.marketplace.client.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

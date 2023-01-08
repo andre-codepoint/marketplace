@@ -1,4 +1,4 @@
-package com.finalpro.marketplace;
+package com.marketplace.rest;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

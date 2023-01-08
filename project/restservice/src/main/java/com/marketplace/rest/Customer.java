@@ -1,11 +1,10 @@
-package com.finalpro.marketplace;
+package com.marketplace.rest;
 
 
 import com.market.Role;
 
-import java.util.Objects;
-
 import javax.persistence.*;
+import java.util.Objects;
 
 @Entity
 class Customer {

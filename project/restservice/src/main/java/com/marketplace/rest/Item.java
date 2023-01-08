@@ -1,4 +1,4 @@
-package com.finalpro.marketplace;
+package com.marketplace.rest;
 
 
 import org.hibernate.annotations.OnDelete;

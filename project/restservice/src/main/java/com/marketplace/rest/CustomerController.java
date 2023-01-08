@@ -1,15 +1,8 @@
-package com.finalpro.marketplace;
+package com.marketplace.rest;
+
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
-
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
 
 import static com.market.RestURIConstants.ALL_CUSTOMERS;
 import static com.market.RestURIConstants.CUSTOMERS_ID;
@@ -27,12 +20,14 @@ class CustomerController {
     // Aggregate root
     // tag::get-aggregate-root[]
     @GetMapping(ALL_CUSTOMERS)
+//    @Transactional(propagation = Propagation.REQUIRES_NEW)
     List<Customer> all() {
         return customerRepository.findAll();
     }
     // end::get-aggregate-root[]
 
     @PostMapping(ALL_CUSTOMERS)
+
     Customer newCustomer(@RequestBody Customer newCustomer) {
         return customerRepository.save(newCustomer);
     }

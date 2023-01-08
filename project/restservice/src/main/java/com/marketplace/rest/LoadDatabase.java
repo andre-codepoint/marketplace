@@ -1,4 +1,4 @@
-package com.finalpro.marketplace;
+package com.marketplace.rest;
 
 import com.market.Role;
 import org.slf4j.Logger;
